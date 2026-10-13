@@ -1,0 +1,14 @@
+.Bot{
+    font-size: larger;
+    padding: 20px;
+    column-gap:20px;
+}
+.Top{
+    border:2px solid black;
+    height:15vh;
+    column-gap: 20PX;
+    row-gap: 20px;
+    padding:10px,10px,10px,10px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

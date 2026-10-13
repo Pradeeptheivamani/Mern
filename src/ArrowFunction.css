@@ -1,0 +1,25 @@
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: content-box;
+    height:10vh;
+    width:50vh;
+    border-color: black;
+    border-radius: 10vh;
+    
+}
+h1{
+    color: blue;
+    font-size: 100%;
+    content: center;
+    background-color: rgb(234, 18, 18);
+}
+body{
+    background-color: aquamarine;
+    
+}
+tax{
+    color: brown;
+    background-color: aqua;
+}
+
+

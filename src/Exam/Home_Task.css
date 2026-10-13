@@ -1,0 +1,23 @@
+
+.Dot{
+    background-color: rgb(252, 166, 166);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  gap:50%;
+  font-size:20px;
+  border:2px solid black;
+  
+
+}
+.Bot{
+    background-color: rgb(28, 20, 80);
+    border:2px solid rgb(18, 19, 19);
+    gap:20%;
+    color: azure;
+    
+}
+.top{
+    background-color: rgb(211, 116, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+

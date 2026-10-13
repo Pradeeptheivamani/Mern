@@ -1,0 +1,21 @@
+input{
+    width:20vh;
+    height:10%;
+    border-radius: 10vh;
+    
+    margin: 10px;
+    
+}
+form{
+
+     row-gap: 10px;
+     border:1px solid black;
+     width:50%;
+     background-color: cornsilk;
+     margin-left:50vh;
+    
+}
+button{
+     color: rgb(13, 12, 13);
+     background-color: chocolate;
+}

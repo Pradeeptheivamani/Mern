@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.login-page {
+  min-height: 100vh;
+  display: flex;
+   background: #4a4f9c;
+}
+.side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.side h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+  text-align: left;
+}
+.side h1 span {
+  display: inline-block;
+  margin-left: 40px;
+}
+.form-box {
+  width: 38%;
+  min-width: 420px;
+  min-height: 100vh;
+  background: #fff;
+  padding: 30px 38px 40px;
+}
+.form-box form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.form-box h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin: 10px 0 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2b2d9b;
+  text-transform: uppercase;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.field label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 10px;
+}
+.field input,
+.field select {
+  height: 46px;
+  padding: 0 14px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  background: #fff;
+  font-size: 16px;
+  font-family: inherit;
+  color: #333;
+  outline: none;
+}
+.field input::placeholder {
+  color: #888;
+}
+.field input:focus,
+.field select:focus {
+  border-color: #2b2d9b;
+}
+.field input[type='date'],
+.field select {
+  width: fit-content;
+  min-width: 110px;
+}
+.field input[type='text'],
+.field input[type='email'],
+.field input[type='tel'] {
+  width: 100%;
+}
+.btn-row {
+  grid-column: 1 / -1;
+  margin-top: 10px;
+}
+.btn-row button {
+  background: #2b2d9b;
+  color: #fff;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-row button:hover {
+  background: #e0e0eb;
+}
+.login-page {
+  background-image: url('./asset/login.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .login-page {
+    flex-direction: column;
+  }
+  .side {
+    flex: none;
+    padding: 40px 20px 20px;
+  }
+  .side h1 {
+    font-size: 20px;
+  }
+  .side h1 span {
+    margin-left: 20px;
+  }
+  .form-box {
+    width: 100%;
+    min-width: 0;
+    min-height: auto;
+    padding: 24px 20px;
+  }
+  .form-box form {
+    grid-template-columns: 1fr;
+  }
+}

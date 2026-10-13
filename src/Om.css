@@ -1,0 +1,25 @@
+
+.image-box{
+background-color: rgb(194, 211, 229);
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+
+}
+.image-box img {
+  width: 100%;
+  
+}
+body{
+     background-color: rgb(194, 211, 229);
+}
+button{
+
+    width:50%;
+    border-radius:10px;
+    height:8vh;
+    font: 400;
+    color: rgb(241, 241, 244);
+    background-color: rgb(63, 95, 223);
+    font-size: larger;
+}

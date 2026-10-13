@@ -1,0 +1,17 @@
+.cat{
+    background-color: rgb(7, 7, 163);
+    color:azure;
+    height: 5vh;
+    row-gap:20px;
+    column-gap:20px;
+}
+.Rat{
+    background-color: rgb(7, 7, 163);
+    color:azure;
+      height: 5vh;
+}
+.Bat{
+    background-color: rgb(7, 7, 163);
+    color:azure;
+      height: 5vh;
+}
