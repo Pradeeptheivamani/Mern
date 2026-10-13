@@ -105,4 +105,4 @@ console.log(members)
         </>
     )
 }
-export default ObjectExample;
+export default ObjectExample
