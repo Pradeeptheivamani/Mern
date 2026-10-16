@@ -5,9 +5,9 @@ const Getdata = () => {
     const[data,setData]=useState([])
 
     useEffect(()=>{
-        axios.get("https://dummyjson.com/c/d95d-2150-4ca1-bbd3")
-        .then((res)=>{setData(res.data)})
-    },[])
+    axios.get("http://localhost:5000/whether")
+    .then((res)=>console.log(res.value))
+  },[])
 
   return (
     <>

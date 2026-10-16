@@ -4,8 +4,6 @@ import axios from 'axios';
 import './Projects_Task.css'
 function Projects_Task() {
 
-  const [data, setData] = useState({});
-
   useEffect(() => {
     axios.get("https://dummyjson.com/c/dee5-570c-4565-bc01")
       .then((res) => {
@@ -14,7 +12,9 @@ function Projects_Task() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, []);const [data, setData] = useState({});
+
+  
 
   return (
     <>
